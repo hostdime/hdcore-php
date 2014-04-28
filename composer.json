@@ -1,0 +1,26 @@
+{
+    "name": "hostdime/hdcore",
+    "type": "library",
+    "description": "A wrapper around the HostDime API",
+    "homepage": "https://api.hostdime.com/",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Tristan Pemble",
+            "email": "tristan.p@hostdime.com",
+            "homepage": "https://github.com/mtdowling"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "guzzle/guzzle": "~3.9"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "HostDime": "src/"
+        }
+    }
+}
