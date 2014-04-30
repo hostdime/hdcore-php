@@ -12,6 +12,10 @@ The recommended method of installation is via [Composer](http://getcomposer.org)
     # Add the library as a dependency
     php composer.phar require hostdime/hdcore:~0.1
 
+After installing, you need to require Composer's autoloader:
+
+    require 'vendor/autoloader.php'; 
+
 ## Usage
 
 ~~~php
