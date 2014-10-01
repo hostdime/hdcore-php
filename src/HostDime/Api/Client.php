@@ -39,7 +39,7 @@ class Client
         $result = $request->send()->json();
 
         if ($result['error'] !== NULL)
-            throw new Exception($result['error']);
+            throw new \Exception( $result['error']['message'], $result['error']['code'] );
         else
             return $result['response'];
     }
