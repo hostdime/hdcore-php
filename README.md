@@ -14,7 +14,7 @@ The recommended method of installation is via [Composer](http://getcomposer.org)
 
 After installing, you need to require Composer's autoloader:
 
-    require 'vendor/autoloader.php'; 
+    require 'autoloader.php'; 
 
 ## Usage
 
@@ -25,7 +25,7 @@ $client = new \HostDime\Api\Client($public_key, $private_key);
 
 $servers = $client->call('server.list');
 
-for ($servers as $server) {
+foreach ($servers as $server) {
     echo $server['name'];
 }
 ~~~
