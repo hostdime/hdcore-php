@@ -14,7 +14,7 @@ The recommended method of installation is via [Composer](http://getcomposer.org)
 
 After installing, you need to require Composer's autoloader:
 
-    require 'autoloader.php'; 
+    require 'vendor/autoload.php'; 
 
 ## Usage
 
